@@ -1,0 +1,61 @@
+{
+  "name": "DailyWash",
+  "version": "0.0.1",
+  "private": true,
+  "rnpm": {
+    "assets": [
+      "src/assets/fonts"
+    ]
+  },
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "release-android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
+    "open:apkdir": "explorer D:\\mobile-app\\DailyWash-Design\\android\\app\build\\outputs\\apk\\debug",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/toolbar-android": "^0.1.0-rc.2",
+    "@react-native-community/viewpager": "^3.1.0",
+    "@valdio/react-native-scrollable-tabview": "^0.8.12",
+    "axios": "^0.19.1",
+    "faker": "^4.1.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "native-base": "^2.13.12",
+    "numeral": "^2.0.6",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "react-native-gesture-handler": "^1.5.3",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-material-menu": "^1.0.0",
+    "react-native-paper": "^3.4.0",
+    "react-native-reanimated": "^1.4.0",
+    "react-native-screens": "1.0.0-alpha.23",
+    "react-native-segmented-control-tab": "^3.4.1",
+    "react-native-skeleton-placeholder": "^2.0.7",
+    "react-native-slideshow": "^1.0.1",
+    "react-native-snap-carousel": "^3.8.4",
+    "react-native-tab-view": "^2.11.0",
+    "react-native-timeline-flatlist": "^0.5.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.0.10",
+    "react-navigation-drawer": "^2.3.3",
+    "react-navigation-stack": "^1.10.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/runtime": "^7.7.4",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.7.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.57.0",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
