@@ -14,7 +14,7 @@ const HomeMassage = props => {
             animationType={'fade'}
             onRequestClose={props.close}
         >
-            <View style={{flex:1,justifyContent:'center',alignItems:'center',padding:30,}}>
+            <View style={{flex:1,justifyContent:'center',alignItems:'center',padding:30,backgroundColor:'#fff'}}>
                 <View style={{width:'100%',backgroundColor:'#fff',justifyContent:'center',alignItems:'center',borderRadius:10,zIndex:3,overflow:'hidden'}}>
                     <View style={{width:'100%',justifyContent:'center',alignItems:'center',backgroundColor:'#fff',padding:20,}}>
                         <Icon name="alert-circle-outline" size={80} style={{marginBottom:15,color:'#D20A61'}}/>
@@ -30,7 +30,6 @@ const HomeMassage = props => {
                         </TouchableOpacity>
                     </View>
                 </View>
-                
             </View>
 
             <TouchableOpacity

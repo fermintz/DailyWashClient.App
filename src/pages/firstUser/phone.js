@@ -48,7 +48,7 @@ export default props => {
           style={{backgroundColor:'#01a1dd',marginTop:20,fontWeight:'bold'}}
           contentStyle={{height:45,}}
           color="#fff"
-          onPress={()=>{}}
+          onPress={()=>{props.navigation.navigate('home')}}
         >
           인증확인
         </Button>
